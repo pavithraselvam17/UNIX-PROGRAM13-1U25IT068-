@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-useradd "$REQUIRED_USERNAME"
-id "$REQUIRED_USERNAME"
+# Create user named studentuser
+sudo useradd studentuser
+
+# Display user details using id
+id studentuser
