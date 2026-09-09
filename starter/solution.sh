@@ -1,4 +1,5 @@
 #!/bin/bash
 
-useradd jeevitha
-id jeevitha
+read username
+useradd "$username"
+id "$username"
