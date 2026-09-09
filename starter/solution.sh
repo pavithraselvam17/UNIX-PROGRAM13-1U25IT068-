@@ -1,5 +1,4 @@
 #!/bin/bash
 
-read username
-useradd "$username"
-id "$username"
+useradd "$REQUIRED_USERNAME"
+id "$REQUIRED_USERNAME"
